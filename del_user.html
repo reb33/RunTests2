@@ -47,6 +47,16 @@
 	<td>test_kbar</td>
 </tr>
 <tr>
+	<td>storeXpathCount</td>
+	<td>//div[@id='content']//table/tbody/tr</td>
+	<td>countTr</td>
+</tr>
+<tr>
+	<td>for</td>
+	<td>;${countTr}&gt;0;</td>
+	<td></td>
+</tr>
+<tr>
 	<td>waitForElementPresent</td>
 	<td>css=a.index-delete</td>
 	<td></td>
@@ -105,6 +115,11 @@
 	<td>waitForXpathCount</td>
 	<td>//div[@id='content']//table/tbody/tr</td>
 	<td>0</td>
+</tr>
+<tr>
+	<td>endFor</td>
+	<td></td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
